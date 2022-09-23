@@ -6,18 +6,16 @@ Let's find all the files in the root directory (of our repository) which contain
 ```
 grep -r "{ xcode: 'Xcode14-beta' }" *
 ```
-
-* `-r`: recursive search, perform the same search in each directory, and each directory within that and so on...
-* `*`: wild card, in this position it means look at all files/directories in the current working directory `cwd`
-* `-l`: some people suggest using this flag
+Let's break this down:
+* `-r`: recursive search, performs the same search in each directory, and each directory within that and so on...
+* `*`: a wild card, in this position it means look at all files/directories in the `cwd` (current working directory)
+* `-l`: this refines the results to just the relative path and filename - it comes in useful later
 
 the output might look something like this:
 ```
 Scripts/CI/ui-test-pipeline.groovy:  { xcode: 'Xcode14-beta' }
 Scripts/CI/unit-test-nightly-pipeline.groovy:  { xcode: 'Xcode14-beta' }
-Scripts/CI/gnl-adhoc-build.groovy:  { xcode: 'Xcode14-beta' }
 Scripts/CI/unit-test-pipeline.groovy:  { xcode: 'Xcode14-beta' }
-Scripts/CI/gnl-release.groovy:  { xcode: 'Xcode14-beta' }
 Scripts/CI/DeveloperTool.groovy:  { xcode: 'Xcode14-beta' }
 Scripts/CI/Jenkinsfile:  { xcode: 'Xcode14-beta' }
 ```
@@ -25,7 +23,7 @@ Scripts/CI/Jenkinsfile:  { xcode: 'Xcode14-beta' }
 # Replacing
 GREP doesn't do find/replace, but [Google](https://Google.com)/[Stack Overflow](https://stackoverflow.com/) offer some nice one line solutions. What I ended up doing looks like this:
 
-Set these variables to aboid escape character confusion (_I'm not 100% sure it's even possible without doing this_).
+Set these variables to avoid escape character confusion (_I'm not 100% sure it's even possible without doing this_).
 ```
 % oldstring="{ xcode: 'Xcode14-beta' }"
 % newstring="{ xcode: 'Xcode14' }"
@@ -37,7 +35,7 @@ then this monster:
 % grep -rl $oldstring * | xargs sed -i "s/$oldstring/$newstring/g"
 ```
 
-using `GREP` to gather the filesn then using `SED` to do the replacements within that file. (I'm guessing GREP is more efficient at finding than `SED` and hence we don't just `SED` on all the files). Let's break it down:
+using `GREP` to gather the files, then using `SED` to do the replacements within that file. (I'm guessing GREP is more efficient at finding than `SED` and hence we don't just `SED` on all the files). Let's break it down:
 
 * `grep -rl $oldstring *` this is our previous command (note we're using `-l` to just grab the filenames)
 * `|` pipe: passing the file names into the following command `sed`
@@ -62,11 +60,10 @@ we should get the same set of files indicated:
 ```
 Scripts/CI/ui-test-pipeline.groovy:  { xcode: 'Xcode14' }
 Scripts/CI/unit-test-nightly-pipeline.groovy:  { xcode: 'Xcode14' }
-Scripts/CI/gnl-adhoc-build.groovy:  { xcode: 'Xcode14' }
 Scripts/CI/unit-test-pipeline.groovy:  { xcode: 'Xcode14' }
-Scripts/CI/gnl-release.groovy:  { xcode: 'Xcode14' }
 Scripts/CI/DeveloperTool.groovy:  { xcode: 'Xcode14' }
 Scripts/CI/Jenkinsfile:  { xcode: 'Xcode14' }
 ```
+indicating that the old strings have been replaced with the new strings. Easy.
 
 Win.
