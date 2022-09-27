@@ -32,7 +32,7 @@ Set these variables to avoid escape character confusion (_I'm not 100% sure it's
 then this monster:
 
 ```
-% grep -rl $oldstring * | xargs sed -i "s/$oldstring/$newstring/g"
+% grep -rl $oldstring * | xargs sed -i '' "s/$oldstring/$newstring/g"
 ```
 
 using `GREP` to gather the files, then using `SED` to do the replacements within that file. (I'm guessing GREP is more efficient at finding than `SED` and hence we don't just `SED` on all the files). Let's break it down:
