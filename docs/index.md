@@ -4,3 +4,4 @@
 2. [Poster Board Quit Unexpectedly](/articles/Poster-Board-Quit-Unexpectedly) _22-09-12_
 3. [Fun with GREP](/articles/Fun_with_GREP) _22-09-20_
 4. [Merge vs. Rebase](/articles/merge-or-rebase) _22-10-13_ 
+5. [Railway Oriented Programming - Video](/articles/Railway_oriented_programming) _22-11-04_
