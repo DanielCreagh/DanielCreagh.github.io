@@ -6,3 +6,5 @@
 4. [Merge vs. Rebase](/articles/merge-or-rebase) _22-10-13_ 
 5. [Railway Oriented Programming - Video](/articles/Railway_oriented_programming) _22-11-04_
 6. [Algabraic Data Types](/articles/Algabraic_Data_Types) _22-11-9_
+7. [Embrace Swift Generics](/articles/Embrace_Swift_Generics) _22-11-18_
+8. [Protocol Oriented Programming](/articles/Protocol-Oriented-Programming) _22-11-25_
