@@ -10,4 +10,16 @@
 8. [Protocol Oriented Programming](/articles/Protocol-Oriented-Programming) _22-11-25_
 9. [Making Impossible States Impossible](/articles/Making_Impossible_States_Impossible) _22-12-01_
 10. [A hitchhikers guide to SwiftUI](/aritcles/The_Hitchhikers_Guide_to_SwiftUI) _22-12-16_
-11. [WWDC: Meet-SwiftAsync-Algorithms](/articles/Meet-SwiftAsync-Algorithms) _22-12-23_
+11. [WWDC: Meet SwiftAsync Algorithms](/articles/Meet-SwiftAsync-Algorithms) _22-12-23_
+12. [Swift Mock Objects How to Avoid Fragile Tests](/articles/Swift-Mock-Objects_How-to-Avoid-Fragile-Tests) _22-12-30_
+13. [Mysteries of SwiftUI Text View](/articles/Mysteries-of-SwiftUI-Text-View) _23-01-06_
+14. [Demystifying Functional Programming](/articles/Demystifying_Functional_Programming) _23-01-23_
+15. [Embracing Algorithms](/articles/Embracing_Algorithms) _23-02-08_
+16. [Test is Dead](/articles/Test_is_Dead) _23-02-22_
+17. [WWDC2022 Eliminate data races using Swift Concurrency](/articles/WWDC2022_Eliminate-data-races-using-Swift-Concu) _23-03-22_
+18. [Inspecting SwiftUIs Layout Process](/articles/Inspecting-SwiftUIs-Layout-Process) _23-03-29_
+19. [Mikado Method](/articles/Mikado-Method) _23-03-31_
+20. [Future of combine etc](/articles/Future-of-combine-etc) _23-04-12_
+21. [Technical leadership and glue work](/articles/Technical-leadership-and-glue-work) _23-04-12_
+22. [TheLongRoad](/articles/TheLongRoad) _23-04-19_
+23. [Dependencies & Stack](/articles/Dependencies_&_Stack) _23-05-12_
