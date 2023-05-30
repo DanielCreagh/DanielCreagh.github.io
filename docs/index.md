@@ -9,8 +9,8 @@
 7. [Embrace Swift Generics](/articles/Embrace_Swift_Generics) _22-11-18_
 8. [Protocol Oriented Programming](/articles/Protocol-Oriented-Programming) _22-11-25_
 9. [Making Impossible States Impossible](/articles/Making_Impossible_States_Impossible) _22-12-01_
-10. [A hitchhikers guide to SwiftUI](/aritcles/The_Hitchhikers_Guide_to_SwiftUI) _22-12-16_
-11. [WWDC: Meet SwiftAsync Algorithms](/articles/Meet-SwiftAsync-Algorithms) _22-12-23_
+10. [A hitchhikers guide to SwiftUI](/articles/The_Hitchhikers_Guide_to_SwiftUI) _22-12-16_
+11. [WWDC: Meet SwiftAsync Algorithms](/articles/Meet-Swift-Async-Algorithms_WWDC) _22-12-23_
 12. [Swift Mock Objects How to Avoid Fragile Tests](/articles/Swift-Mock-Objects_How-to-Avoid-Fragile-Tests) _22-12-30_
 13. [Mysteries of SwiftUI Text View](/articles/Mysteries-of-SwiftUI-Text-View) _23-01-06_
 14. [Demystifying Functional Programming](/articles/Demystifying_Functional_Programming) _23-01-23_

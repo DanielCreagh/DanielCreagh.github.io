@@ -1,4 +1,4 @@
-# [Inspecting SwiftUI's Layout Process](https://talk.objc.io/episodes/S01E318-inspecting-swiftui-s-layout-process
+# [Inspecting SwiftUI's Layout Process](https://talk.objc.io/episodes/S01E318-inspecting-swiftui-s-layout-process)
 
 - implementing a simple slider to experiment with
 The text size varies so we want to see how the size changes
