@@ -11,7 +11,59 @@ Replace `for` loop with `while` loop
 
 We can go backwards and make this even more simple.
 
+> weird hipster jokes
+
 ## Check out the documentation for `remove(at:)`
 This indicates the Big O = O(_n_).
 
-9:40
+# Scalability is Predictability
+?? doesn't really explain this but kind of follow it
+
+# Algorithms
+It might not look like it but even well architected code is full of algorithms
+
+Crusty's advice was to use some SDK commands for optimised algorithms.
+
+Scalability vs. Absolute Performance
+
+`removeAll` => `halfStablePartition`
+double pointer algo
+
+# Get To Know Your Standard Library
+
+everytime you write a loop, replace it with a call to an algorithm
+
+> Array Slices don't start with index 0!
+
+`indexBeforeFirst`
+
+# Semantics
+Also the importance of documentation
+- rotate algo
+
+# Discover Generic Algorithms
+> Programming reveals the real.
+
+# No Raw Loops!
+
+---
+
+for x in y {
+
+}
+
+.forEach
+
+for var x in 0..<200 {
+
+}
+
+do while
+
+1 2 3 4 5 6 7
+
+x % 2 == 0
+
+2 4 6 1 3 5 7
+
+2 4 6 5 7 1 3
