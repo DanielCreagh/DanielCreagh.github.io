@@ -23,3 +23,9 @@
 21. [Technical leadership and glue work](/articles/Technical-leadership-and-glue-work) _23-04-12_
 22. [TheLongRoad](/articles/TheLongRoad) _23-04-19_
 23. [Dependencies & Stack](/articles/Dependencies_&_Stack) _23-05-12_
+24. [Perception vs. Perspective](/articles/PerceptionVsPerspective) _23-10-27_
+25. [AWSCloud Migration](/articles/AWSCloud_Migration) _23-11-15_
+27. [SwiftUI Gotchas](/articles/SwiftUI-Gotchas) _23-11-15_
+29. [SwiftUI Threads Clone - Firebase](/articles/SwiftUI_ThreadsClone) _23-11-15_
+30. [Systems Design Interviews](/articles/SystemsDesignInterviews) _23-11-15_
+31. [Systems Design... more details](/articles/Systems-Design_More_detailed) _23-11-15_
