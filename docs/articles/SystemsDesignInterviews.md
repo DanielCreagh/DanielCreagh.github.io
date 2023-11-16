@@ -11,6 +11,7 @@ Goal: Demonstrate your expertise, approach to problem solving and communication 
 - Clarifying Questions
 - Diagramming
 - Minor interruptions
+
 __It's important to identify any potential time sinks in advance__
 
 ### talking points:
@@ -18,13 +19,15 @@ __It's important to identify any potential time sinks in advance__
 - Trade Offs
 - Decisions
 - Assumptions
+
 __There's no harm in taking quick pauses as opportunities for questions etc.__
 
 ### A suggested framework
 1. Understand the problem and establish design scope (5 mins)
 Define the problem space
+
 > functional, non-functional and out of scope
-2. Propose high level design and get buy in (20 mins)
+2. Propose high level design and get buy-in (20 mins)
 3. Design Deep Dive (15 mins)
 4. Wrap Up (5 mins) summarise the design, list tradeoffs
 
@@ -74,7 +77,7 @@ The interviewer might be looking for the following signals:
 - The candidate has app modularity in mind and is capable of thinking in the scope of the entire team and not limiting themselves as a single contributor (this might be more important for senior candidates).
 
 
-## Trade Offs
+## Trade Offs
 - different types of API
 * REST (representational state transfer) CRUD
 * SOAP
@@ -86,6 +89,8 @@ The interviewer might be looking for the following signals:
 - draw.io
 - Omnigraffle
 - Whimsical
+- [Google Jam Board](https://jamboard.google.com/?pli=1)
+- [Google drawings](https://docs.google.com/drawings)
 
 ## Non Functional Requirements
 
@@ -116,8 +121,17 @@ The interviewer might be looking for the following signals:
 - gestures
 - present vs. push
 
-## Product Sense
+## Product Sense
 - vision of the UI and users needs
+
+## Performance/Stability
+- Metered data usage - cellular network traffic can be very expensive.
+- Bandwidth usage - constant waking up of the cellular radio results in a faster battery drain.
+- CPU usage - higher computational load results in a faster battery drain and device overheating.
+- Memory Usage - higher memory usage increases the risk of the app being killed in the background.
+- Startup Time - doing too much work at the app start creates a poor user experience.
+- Crashers/ANRs - doing too much work on the main thread can lead to app shutdowns and UI-jank. App crashes is the leading factor of poor store ratings.
+
 
 # Glossary
 
