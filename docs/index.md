@@ -29,3 +29,5 @@
 29. [SwiftUI Threads Clone - Firebase](/articles/SwiftUI_ThreadsClone) _23-11-15_
 30. [Systems Design Interviews](/articles/SystemsDesignInterviews) _23-11-15_
 31. [Systems Design... more details](/articles/Systems-Design_More_detailed) _23-11-15_
+32. [Store Kit 2022](/articles/StoreKit_2022) _24_02_09_
+33. [Swift Macros](/articles/Swift_Macros) _24_02_09_

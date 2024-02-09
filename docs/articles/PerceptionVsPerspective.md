@@ -1,5 +1,5 @@
 # [Perception vs. Perspective](https://www.youtube.com/watch?v=TjFmXANwgtE)
-(https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA)[Lex Fridman] & (https://www.youtube.com/channel/UCXam0UQg9Xr0_OarTKNMFCQ)[Andrew Bustamante]
+[Lex Fridman](https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA) & [Andrew Bustamante](https://www.youtube.com/channel/UCXam0UQg9Xr0_OarTKNMFCQ)
 
 ```
 what is the one spy trick you would
