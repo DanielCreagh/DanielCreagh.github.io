@@ -35,6 +35,9 @@ If each function in a pipeline can fail, that's 3 possible error outputs
 `struct` a product type
 There was a PointFree video on this
 
+Untagged Union Types
+( String | Int | YourType )
+
 # Result Type
 a sum type
 a sum or Success or Failure (sum of 2)
@@ -82,5 +85,77 @@ Don't neglect the unhappy paths
 
 putting all errors in one place (like an enum.Error)
 
+# [TechTrain: Scott Wlaschin — Railway oriented programming](https://www.youtube.com/watch?v=fYo3LN9Vf_M)
 
+## Three Principles of functional programming
+- Functions are Things (like bits of railway track)
+- Composition
+- Types are not Classes
 
+## Functions are Things
+just like strings and integers, they can be passed around
+functions can be used as parameters for other functions
+> A function is a stand alone thing
+
+Object Oriented: Strategy Pattern
+
+### Transformer
+We can have a function that turns one function into another function.
+
+### Composition (Lego)
+All Pieces are designed to be connected.
+You can connect any 2 functions together.
+Take the output of a into input of b to make c.
+You can't tell c is made from a and b.
+
+Object Model = Request and Response
+Functional = Input and Output
+
+Pipeline.
+
+## Types are not Classes
+satically types functional languages
+
+A type is a name for a set of things.
+
+## Algabraic Type System
+Algabraic means composable here (dc: i'm not sure about this)
+Composing AND
+Composing OR
+
+### AND
+Product type.
+
+### OR
+Sum type
+Unions/descriminator
+enum
+
+> Lego oriented programming
+
+### Piping
+Syntax to indicate linking functions together.
+Creating a pipeline.
+in Swift it's common to see the piping aligned vertically
+
+## Error Handling
+We like to focus on the happy path.
+
+### Result type
+Modelling success of failure.
+enum Result {
+    case success
+    case failure
+}
+
+"two track" model of error handling - Railway Oriented Programming.
+a function transformer can turn the single input with double output (like our result)
+flatmap (or bind) can be used to turn it into a double input where the input will be failure or success
+
+- Different shapes of track
+- function transformers
+
+let this: Int?
+func something(Int?) -> String?
+this.map (something) -> String??
+this.Flatmap (something) -> String?
