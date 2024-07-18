@@ -29,51 +29,26 @@
 29. [SwiftUI Threads Clone - Firebase](/articles/SwiftUI_ThreadsClone) _23-11-15_
 30. [Systems Design Interviews](/articles/SystemsDesignInterviews) _23-11-15_
 31. [Systems Design... more details](/articles/Systems-Design_More_detailed) _23-11-15_
-32. [Store Kit 2022](/articles/StoreKit_2022) _24_02_09_
-33. [Swift Macros](/articles/Swift_Macros) _24_02_09_
-Migrate_Swift-6.md
-What_The_Func-References.md
-Essential_SwiftUl.md
-Meet_AccessrorySetupKit.md
-Consume_noncopyableTypes_InSwift.md
-MeetSwiftTesting.md
-SwiftData_DeepDive.md
-so-you-think-you-know-GIT.md
-Recognizing-Code-that-Resists-Unit-Testing.md
-Test-Doubles-Are-A-Scam_Matt-Diephouse.md
-OpenELM.md
-String_Catalogs.md
-Railway_oriented_programming.md
-Algabraic_Data_Types.md
-Protocols_and_Class-Hierarchies.md
-Generalize-APIs-with-parameter-packs.md
-Embrace_Swift_Generics.md
-Build_an_app_with_SwiftData.md
-PerceptionVsPerspective.md
-StoreKit_2022.md
-Swift_Macros.md
-merge-or-rebase.md
-WWDC2022_Eliminate-data-races-using-Swift-Concu.md
-The_Hitchhikers_Guide_to_SwiftUl.md
-TheLongRoad.md
-Test_is_Dead.md
-Technical-leadership-and-glue-work.md
-SystemsDesignInterviews.md
-Systems-Design_More_detailed.d
-SwiftUl_ThreadsClone.md
-SwiftUl_Gotchas.md
-SwiftUl-Gotchas.md
-Swift-Mock-Objects_How-to-Avoid-Fragile-Tests.md
-Protocol-Oriented-Programming.md
-Poster-Board-Quit-Unexpectedly.md
-Mysteries-of-SwiftUl-Text-View.md
-Mikado-Method.md
-Meet-Swift-Async-Algorithms_WWDC.md
-Making_Impossible_States_Impossible.md
-Inspecting-SwiftUls-Layout-Process.md
-Future-of-combine-etc.md
-Fun_with_GREP.md
-Embracing_Algorithms.md
-Dependencies_&_Stack.md
-Demystifying_Functional_Programming.md
-Accessibility-Button-Shapes.md
+
+## 2024
+1. [Store Kit 2022](/articles/StoreKit_2022) _24-02-09_
+2. [Swift Macros](/articles/Swift_Macros) _24-02-09_
+3. [Migrate Swift 6](/articles/Migrate_Swift-6) _24-07-18_
+4. [What The Func References](/articles/What_The_Func-References) _24-07-18_
+5. [Essential Swift UI](/articles/Essential_SwiftUl) _24-07-18_
+6. [Meet Accessrory Setup Kit](/articles/Meet_AccessrorySetupKit) _24-07-18_
+7. [Consume noncopyable Types In Swift](/articles/Consume_noncopyableTypes_InSwift) _24-07-18_
+8. [Meet Swift Testing](/articles/MeetSwiftTesting) _24-07-18_
+9. [Swift Data Deep Dive](/articles/SwiftData_DeepDive) _24-07-18_
+10. [so you think you know GIT](/articles/so-you-think-you-know-GIT) _24-07-18_
+11. [Recognizing Code that Resists Unit Testing](/articles/Recognizing-Code-that-Resists-Unit-Testing) _24-07-18_
+12. [Test Doubles Are A Scam](/articles/Test-Doubles-Are-A-Scam_Matt-Diephouse) _24-07-18_
+13. [Open ELM](/articles/OpenELM) _24-07-18_
+14. [String Catalogs](/articles/String_Catalogs) _24-07-18_
+15. [Algebraic Data Types](/articles/Algabraic_Data_Types) _24-07-18_
+16. [Protocols and Class](/articles/Protocols_and_Class-Hierarchies) _24-07-18_
+17. [Generalize APIs with parameter packs](/articles/Generalize-APIs-with-parameter-packs) _24-07-18_
+18. [Build an app with Swift Data](/articles/Build_an_app_with_SwiftData) _24-07-18_
+19. [Store Kit 2022](/articles/StoreKit_2022) _24-07-18_
+20. [The Long Road](/articles/TheLongRoad) _24-07-18_
+21. [xcode short-cut: select occurancesof word](/articles/xcode-short-cut-select-occurances-of-word) _24-07-18_
