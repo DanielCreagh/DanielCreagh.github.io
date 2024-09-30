@@ -42,6 +42,12 @@ Use `@unchecked Sendable` with caution
 ---
 `@Sendable` can be used on functions
 
+let thisFunc: @Sendable () -> Void
+
+if wantTo { 
+    thisFunc()
+}
+
 ---
 # Actor Isolation
 
@@ -76,10 +82,14 @@ Actors are islands
 
 # When writing your actor
 - Think transactionally
-- Keep async actor oerations simple
+- Keep async actor operations simple
 
-# ACtors execute the highest priority tasks first
+# Actors execute the highest priority tasks first
 - Tasks run code in order
+
+Task { .userInitiated
+
+}
 
 # `AysncStreams` deliver elements in order
 

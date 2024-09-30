@@ -52,3 +52,7 @@
 19. [Store Kit 2022](/articles/StoreKit_2022) _24-07-18_
 20. [The Long Road](/articles/TheLongRoad) _24-07-18_
 21. [xcode short-cut: select occurancesof word](/articles/xcode-short-cut-select-occurances-of-word) _24-07-18_
+22. [xcode short cut run without building](/articles/xcode-short-cut-run-without-building)
+23. [Applicatives and Swift](/articles/Applicatives-and-Swift)
+24. [Boundaries](/articles/Boundaries)
+25. [Explore testing in app purchases](/articles/Explore_testing_in_app_purchases)
