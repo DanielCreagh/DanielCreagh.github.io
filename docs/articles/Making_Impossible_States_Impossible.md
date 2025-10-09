@@ -4,6 +4,8 @@
 ## Elm CSS
 Using elm to generate VALID style sheets
 
+- style sheets are easy to write in an invalid way
+
 ### at rules
 @charset
 @import
